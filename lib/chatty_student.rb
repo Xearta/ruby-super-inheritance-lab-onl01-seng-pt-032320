@@ -9,4 +9,5 @@ class ChattyStudent < Student
   def raise_hand
     super
     x.10 { puts."Pick Me!"}
+  end
 end
